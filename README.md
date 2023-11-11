@@ -15,7 +15,7 @@ This repository contains resources and scripts for a DataOps exercise focused on
 Ensure you have the following dependencies installed:
 
 - [MongoDB](https://www.mongodb.com/try/download/community)
-- Python libraries: `pandas`, `dotenv`, `pymongo`
+- Python libraries: `pandas`, `dotenv`, `pymongo`, `os`
 
 ## Installation
 MongoDB Installation:
