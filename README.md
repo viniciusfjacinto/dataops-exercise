@@ -29,7 +29,7 @@ Install the required Python libraries using the following command:
 
 ## MongoDB-Setup
 
-Open Mongosh and run:
+Open Mongosh and run the following code for creating a database and new collections for our project:
 ```
 use cars_db
 db.createCollection('carros')
