@@ -53,9 +53,7 @@ db.createUser(
 ```
 
 # Scripts
-Connect to the Database Using Pymongo:
-
-Follow [DataOps.ipynb](https://github.com/viniciusfjacinto/dataops-exercise/blob/main/DataOps.ipynb) code instructions.
+Connect to the Database Using Pymongo: Follow [DataOps.ipynb](https://github.com/viniciusfjacinto/dataops-exercise/blob/main/DataOps.ipynb) code instructions.
 
 It's important that you save your user information into environment variables using dotenv library
 
@@ -70,7 +68,7 @@ The script will create two dataframes with the following structure:
 
 ![image](https://github.com/viniciusfjacinto/dataops-exercise/assets/87664450/8d1d8d26-48f1-482d-9ec9-5b28b363a818)
 
-Then it wil insert those data into `cars_db.carros` and `cars_db.montadoras`
+Then it wil insert those data into `cars_db.carros` and `cars_db.montadoras` using insert_many command.
 
 # Aggregations
 In Mongo Compass we will then JOIN carros and montadoras by the column 'Montadora' with the purpose of bringing column 'Pais' to our table.
