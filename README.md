@@ -139,6 +139,6 @@ db.carros.aggregate([
 ])
 ```
 
-## The last query creates a new collection named `carros_por_pais` which we will export to .json using the 'Export Data' button in Compass
+#### The last query creates a new collection named `carros_por_pais` which we will export to .json using the 'Export Data' button in Compass
 
 ![image](https://github.com/viniciusfjacinto/dataops-exercise/assets/87664450/9f644494-fb23-4d5c-aaf0-7c3013f68904)
