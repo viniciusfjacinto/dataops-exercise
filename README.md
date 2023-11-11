@@ -1,5 +1,3 @@
-![image](https://github.com/viniciusfjacinto/dataops-exercise/assets/87664450/45a7fd89-8a53-4904-8047-a97f00803710)# DataOps Exercise: MongoDB Integration
-
 ## Overview
 
 This repository contains resources and scripts for a DataOps exercise focused on creating and inserting car-related data into MongoDB collections. The exercise covers essential steps, including setting up a local MongoDB instance, creating collections, creating an admin user, connecting to the database using Pymongo, inserting data into collections, joining and aggregating data, and exporting to JSON.
