@@ -56,6 +56,7 @@ db.createUser(
 Connect to the Database Using Pymongo:
 
 Follow [DataOps.ipynb](https://github.com/viniciusfjacinto/dataops-exercise/blob/main/DataOps.ipynb) code instructions
+It's important that you save your user information into environment variables using dotenv library
 
 The script will create two dataframes in the following structure:
 
