@@ -59,7 +59,7 @@ Follow [DataOps.ipynb](https://github.com/viniciusfjacinto/dataops-exercise/blob
 
 It's important that you save your user information into environment variables using dotenv library
 
-The script will create two dataframes in the following structure:
+The script will create two dataframes with the following structure:
 
 1) carros
 
