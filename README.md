@@ -38,15 +38,15 @@ db.createCollection('montadoras')
 
 Create an Admin user:
 ```
-use admin
+use cars_db
 
 db.createUser(
   {
     user: 'admin_dataops',
     pwd: '*******************',
     roles: [
-      { role: "userAdminAnyDatabase", db: "admin"},
-      { role: "userWriteAnyDatabase", db: "admin"}
+      { role: "userAdminAnyDatabase", db: "cars_db"},
+      { role: "userWriteAnyDatabase", db: "cars_db"}
     ]
   }
 )
